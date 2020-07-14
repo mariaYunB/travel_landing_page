@@ -6,7 +6,7 @@
   "scripts": {
     "start": "live-server",
     "build": "pug -O data.json -o . templates/index.pug & csso templates/index.css --output index.min.css",
-    "lint": "stylelint **/*.css"
+    "lint": "stylelint templates/*.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "csso-cli": "^3.0.0",
     "live-server": "^1.2.1",
     "pug-cli": "^1.0.0-alpha6",
-    "stylelint": "^13.6.1"
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
