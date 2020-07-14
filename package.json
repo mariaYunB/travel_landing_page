@@ -1,0 +1,29 @@
+{
+  "name": "travel_landing_page",
+  "version": "1.0.0",
+  "description": "Лендинг нового туристического направления в турфирме: описание страны, условия тура, форма поиска предложений",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "build": "pug -O data.json -o . templates/index.pug & csso templates/index.css --output index.min.css",
+    "lint": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaYunB/travel_landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaYunB/travel_landing_page/issues"
+  },
+  "homepage": "https://github.com/mariaYunB/travel_landing_page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "csso-cli": "^3.0.0",
+    "live-server": "^1.2.1",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylelint": "^13.6.1"
+  }
+}
