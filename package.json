@@ -4,7 +4,6 @@
   "description": "Лендинг нового туристического направления в турфирме: описание страны, условия тура, форма поиска предложений",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "live-server",
     "build": "pug -O data.json -o . templates/index.pug & csso templates/index.css --output index.min.css",
     "lint": "stylelint **/*.css"
