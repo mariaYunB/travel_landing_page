@@ -1,6 +1,4 @@
 {
-  "main_info":{
-      "title": "TITLE1",
-      "description": "desc1"
-  }
+  "title": "TITLE1",
+  "description": "desc1"
 }
