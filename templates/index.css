@@ -1,4 +1,4 @@
-@import '../templates/rules.css';
+@import '../templates/normalize.css';
 @import '../templates/header/header.css';
 @import '../templates/body/body.css';
 @import '../templates/footer/footer.css';
