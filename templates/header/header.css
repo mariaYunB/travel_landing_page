@@ -1,0 +1,10 @@
+.header {
+  background: url(../../img/header_background.jpg) cover;
+}
+
+.header__h1 {
+  display: block;
+  text-align: center;
+  color: #333333;
+  margin: 56px 34px 95px;
+}
