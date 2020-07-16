@@ -1,0 +1,12 @@
+.header {
+  height: 263px;
+  background-image:url(../../img/header_background.jpg);
+  background-size: cover;
+  background-repeat: round;
+  padding: 56px 34px 95px;
+}
+
+.header h1 {
+  text-align: center;
+  color: #333333;
+}
