@@ -8,3 +8,23 @@ section.privileges
 section.promo
   h2 #{promo.title}
   p #{promo.description}
+section.registration
+  div.registration__info
+    h2 #{registration.title}
+    p #{registration.description}
+  form(action="" method="POST")
+    fieldset
+      label(for="tel") Номер телефона
+      input#tel(placeholder="+79910071162" required type="tel")
+    fieldset
+      label(for="email") Электронная почта
+      input#email(placeholder="alexeenko.igor@gmail.com" required type="email")
+    fieldset
+      label(for="country") Страна
+      select#country(required)
+        option
+        option(value="Bali") Бали, Индонезия
+        option(value="Thailand") Таиланд
+        option(value="Sri-Lanka") Шри-Ланка
+        option(value="Vietnam") Вьетнам
+    button Оформить заявку
