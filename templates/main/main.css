@@ -3,3 +3,22 @@
   height: 105px;
   margin: 35px auto 0;
 }
+
+.privileges {
+  display: grid;
+  width: 330px;
+  margin: 50px auto 0;
+  grid-template-columns: 150px 150px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.privileges img {
+  margin-bottom: 20px;
+}
+
+.promo {
+  width: 300px;
+  height: 143px;
+  margin: 50px auto 0;
+}
