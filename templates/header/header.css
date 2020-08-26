@@ -6,7 +6,7 @@
   padding: 56px 34px 95px;
 }
 
-.header h1 {
+.header__title {
   text-align: center;
   color: #333333;
 }

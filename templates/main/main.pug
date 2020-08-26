@@ -2,7 +2,7 @@ h3.description #{description}
 section.privileges
   each element in privilege_items
     article
-      img(src="../../img/" + element.icon)
+      img.privileges__icon(src="../../img/" + element.icon)
       h3 #{element.title}
       p #{element.description}
 section.promo
@@ -10,7 +10,7 @@ section.promo
   p При покупке двух путевок, вы получаете скидку 20% и доступ к трем любым бесплатным экскурсиям внутри выбранной страны
 section.registration
   div.registration__info
-    h2 Поехали же
+    h2.registration__info_motto Поехали же
     p Оставьте нам ваш телефон и электронную почту и выберите страну, в которую хотите поехать и мы вам перезвоним
   form(action="" method="POST")
     fieldset

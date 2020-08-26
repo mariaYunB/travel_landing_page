@@ -13,7 +13,7 @@
   row-gap: 50px;
 }
 
-.privileges img {
+.privileges__icon {
   margin-bottom: 20px;
 }
 
@@ -37,7 +37,7 @@
   padding-top: 14px;
 }
 
-.registration__info h2 {
+.registration__info_motto {
   color: #f2994a;
 }
 
