@@ -29,7 +29,6 @@ window.addEventListener(`scroll`, () => {
       if (isElementVisible(icon)) {
         icon.style.filter = null;
         icon.style.height = null;
-        console.log(`fgjhr`)
       } else {
         icon.style.filter = `opacity(0.2)`;
         icon.style.height = 50 + `px`;
