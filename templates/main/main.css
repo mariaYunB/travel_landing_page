@@ -1,0 +1,47 @@
+.description {
+  width: 300px;
+  height: 105px;
+  margin: 35px auto 0;
+}
+
+.privileges {
+  display: grid;
+  width: 330px;
+  margin: 50px auto 0;
+  grid-template-columns: 150px 150px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.privileges__icon {
+  margin-bottom: 20px;
+}
+
+.promo {
+  width: 300px;
+  height: 143px;
+  margin: 50px auto 0;
+}
+
+.registration {
+  width: 340px;
+  margin: 50px auto 0;
+  box-shadow: 0px 0px 20px #f2994a;
+  border-radius: 20px;
+}
+
+.registration__info {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+
+.registration__info_motto {
+  color: #f2994a;
+}
+
+input[type="tel"]::placeholder {
+  font-size: 18px;
+  color: #000000;
+}

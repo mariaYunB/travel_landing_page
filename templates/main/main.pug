@@ -1,0 +1,30 @@
+h3.description #{description}
+section.privileges
+  each element in privilege_items
+    article
+      img.privileges__icon(src=`../../img/${element.icon}`)
+      h3 #{element.title}
+      p #{element.description}
+section.promo
+  h2 Дайте две!
+  p При покупке двух путевок, вы получаете скидку 20% и доступ к трем любым бесплатным экскурсиям внутри выбранной страны
+section.registration
+  div.registration__info
+    h2.registration__info_motto Поехали же
+    p Оставьте нам ваш телефон и электронную почту и выберите страну, в которую хотите поехать и мы вам перезвоним
+  form(action="" method="POST")
+    fieldset
+      label(for="tel") Номер телефона
+      input#tel(placeholder="+79910071162" required type="tel")
+    fieldset
+      label(for="email") Электронная почта
+      input#email(placeholder="alexeenko.igor@gmail.com" required type="email")
+    fieldset
+      label(for="country") Страна
+      select#country(required)
+        option
+        option(value="Bali") Бали, Индонезия
+        option(value="Thailand") Таиланд
+        option(value="Sri-Lanka") Шри-Ланка
+        option(value="Vietnam") Вьетнам
+    button Оформить заявку
